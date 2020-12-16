@@ -1,0 +1,8 @@
+pipeline{
+  agent any
+  stages{
+    stage('Stage Git1'){
+     echo 'Hello Satyabrata'
+    }
+  }
+}
